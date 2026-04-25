@@ -1,48 +1,6 @@
 
 # P4 Tutorials Setup & Execution Guide
 
-## Folder Placement
-
-1. Navigate to:
-```
-
-~/tutorials/exercises/
-
-````
-
-2. Create a new directory:
-```bash
-mkdir <your-folder-name>
-````
-
-3. Copy all project files into this directory.
-
-4. Use the `nano` editor while copying file contents to preserve indentation:
-
-   ```bash
-   nano filename
-   ```
-
----
-
-## Build and Run Steps
-
-Run the following commands in order:
-
-```bash
-make build
-sudo mn -c
-make run
-```
-
-This will:
-
-* Build the P4 program
-* Clean Mininet
-* Start the topology
-
----
-
 ## VM Setup (VirtualBox and Vagrant)
 
 ### 1. Install Prerequisites
@@ -150,11 +108,53 @@ If this runs successfully, the setup is complete.
 
 ---
 
-## Final Steps
+## Folder Placement
 
-* Copy your project files into the correct directory
+1. Navigate to:
+```
+
+~/tutorials/exercises/
+
+````
+
+2. Create a new directory:
+```bash
+mkdir <your-folder-name>
+````
+
+3. Copy all project files into this directory.
+
+4. Use the `nano` editor while copying file contents to preserve indentation:
+
+   ```bash
+   nano filename
+   ```
+
+---
+
+## Build and Run Steps
+
+Run the following commands in order:
+
+```bash
+make build
+sudo mn -c
+make run
+```
+
+This will:
+
+* Build the P4 program
+* Clean Mininet
+* Start the topology
+
+---
+
+## Final Steps for walkthrough of our project
+
+* Copy our project files into the correct directory
 * Run build and execution commands
-* Refer to your report for project-specific details
+* Refer to our report for project-specific details
 
 ---
 
