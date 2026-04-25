@@ -191,7 +191,15 @@ Email: cabhishek1304@gmail.com
 
 ## Credits
 
-This guide was prepared by Abhishek Chandurkar.
+This guide was prepared by Abhishek Chandurkar. Also the paper from which we chose and tried to implement the features is : 
+Information-Sensitive In-band Network Telemetry in
+P4-based Programmable Data Plane
+Zichen Xu, Ziye Lu, and Zuqing Zhu, Fellow, IEEE
+
+So, the credit for the ideas presented in the work would go to them only (not me, I only referred their work!)
+
+Also, the guide has excerpts from the github repo :  https://github.com/p4lang/tutorials
+I have simply brought everything together according to my experience while doing this project.
 
 ```
 ```
